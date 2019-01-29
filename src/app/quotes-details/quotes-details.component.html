@@ -1,0 +1,8 @@
+<p>{{quote.id}}</p>
+<p>{{quote.author}}</p>
+<p>{{quote.completeDate}}</p>
+<p>{{quote.up}}</p>
+<p>{{quote.down}}</p>
+<button class="btn btn-success" (click)='vote(true)'>UP VOTE<i class="fa fa-thumbs-o-up"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="btn btn-danger" (click)='voted(true)' >DOWN VOTE<i class="fa fa-thumbs-down"></i></button><br><br>
+<button (click) = 'quoteComplete(true)'> Delete Quote </button>
