@@ -3,6 +3,8 @@
 <p>{{quote.completeDate}}</p>
 <p>{{quote.up}}</p>
 <p>{{quote.down}}</p>
-<button class="btn btn-success" (click)='vote()'>UP VOTE<i class="fa fa-thumbs-o-up"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<button class="btn btn-danger" (click)='voted()' >DOWN VOTE<i class="fa fa-thumbs-down"></i></button><br><br>
+<p><u> Pipe </u><br>Due on {{quote.PipeDate|date|uppercase}}</p>
+<p>This goal has been created since {{quote.completeDate|dateCount}} days</p>
+<button class="btn btn-success" (click)='vote()'>UP VOTE<i class="up"></i></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button class="btn btn-danger" (click)='voted()' >DOWN VOTE<i class="down"></i></button><br><br>
 <button (click) = 'quoteComplete(true)'> Delete Quote </button>

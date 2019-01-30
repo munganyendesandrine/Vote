@@ -7,11 +7,11 @@ import {Quote} from '../quote'
 })
 export class QuotesComponent implements OnInit {
   quotes=[
-    new Quote(1,'There is only one happiness in this life, to love and be loved.','George Sand',new Date(2018,3,14),0,0),
-    new Quote(2,'Money won"t create success,the freedom to make it will.','Nelson Mandela',new Date(2018,1,12),0,0),
-    new Quote(3,'Think in the morning. Act in the noon. Eat in the evening. Sleep in the night.','William Blake',new Date(2018,3,14),0,0),
-    new Quote(4,'There is no charm equal to tenderness of heart','Jane Austen',new Date(2018,1,12),0,0),
-    new Quote(5,'Learning never exhausts the mind','Leonardo da Vinci',new Date(2018,3,14),0,0),
+    new Quote(1,'There is only one happiness in this life, to love and be loved.','George Sand',new Date(2019,5,14),0,0,'Pipe'),
+    new Quote(2,'Money won"t create success,the freedom to make it will.','Nelson Mandela',new Date(2020,1,12),0,0,'Pipe'),
+    new Quote(3,'Think in the morning. Act in the noon. Eat in the evening. Sleep in the night.','William Blake',new Date(2018,3,14),0,0,'Pipe'),
+    new Quote(4,'There is no charm equal to tenderness of heart','Jane Austen',new Date(2020,1,12),0,0,'Pipe'),
+    new Quote(5,'Learning never exhausts the mind','Leonardo da Vinci',new Date(2019,9,14),0,0,'Pipe'),
   ]
   addNewQuote(quote){
     let quoteLength = this.quotes.length;
