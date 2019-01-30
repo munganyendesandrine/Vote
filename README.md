@@ -17,3 +17,11 @@ This project displays to the user some quotes and allows to the user to create a
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+##Technologies used
+
+* HTML
+* CSS
+* Javascript
+* Bootstrap
+* Angular CLI version 7.2.2
+
