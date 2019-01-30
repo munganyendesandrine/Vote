@@ -1,4 +1,4 @@
-import { Component, OnInit, Input,Output,EventEmitter } from '@angular/core';
+import { Component,ElementRef, OnInit, Input,Output,EventEmitter } from '@angular/core';
 import {Quote} from '../quote'
 
 @Component({
@@ -17,12 +17,20 @@ export class QuotesDetailsComponent implements OnInit {
   }
   vote(){
     this.quote.up++;
-    
+    let a=this.quote.up>5;
+   
+    if(a)
+    {
+      alert("Most liked quote")
+     
+    }
   }
   voted(){
     this.quote.down++;
   }
-  constructor() { }
+ 
+  constructor(){}
+  
 
   ngOnInit() {
   }
