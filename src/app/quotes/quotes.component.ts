@@ -30,15 +30,7 @@ completeQuote(isComplete,index){
       this.quotes.splice(index,1);
       }
       }
-  /*increaseVote(isUp,index){
-   if(isUp){
-     let voteUp=this.quotes[index].voteIncrease;
-     voteUp=voteUp+1;
-     this.quotes[index].voteIncrease=voteUp;
-   }
-  }*/
-  
-  constructor() { }
+   constructor() { }
 
   ngOnInit() {
   }
